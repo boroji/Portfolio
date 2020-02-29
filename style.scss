@@ -6,6 +6,11 @@ $light: #F2F2F2;
 $accent: #C6575F;
 $negative: #ffffff;
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 html,
 body {
     margin: 0;
@@ -46,6 +51,7 @@ body {
         width: 30%;
         justify-content: center;
         flex-direction: column;
+        margin-left: 20px;
     }
 
 }
@@ -90,6 +96,34 @@ button {
     }
 }
 
+.btn {
+    margin-top: 80px;
+}
+
 h1 {
+    font-size: 24px;
     font-weight: 300;
+    color: $primary;
+    padding-left: 16px;
+}
+
+.hey {
+    font-size: 92px;
+    font-weight: 300;
+    letter-spacing: -5px;
+    color: $primary;
+    padding-left: 16px;
+}
+
+.me {
+    font-size: 48px;
+    font-weight: 300;
+    color: $primary;
+    padding-left: 16px;
+    margin-bottom: 20px;
+}
+
+.me span {
+    font-weight: 500;
+    color: $accent;
 }
