@@ -34,7 +34,8 @@ body {
     align-items: center;
 
     .row {
-        width: 50%;
+        width: 40%;
+        margin-right: 80px;
     }
 }
 
@@ -48,10 +49,11 @@ body {
 
     .controls {
         display: flex;
-        width: 30%;
+        width: 50%;
         justify-content: center;
         flex-direction: column;
-        margin-left: 20px;
+        margin-left: 60px;
+        margin-bottom: 50px;
     }
 
 }
@@ -59,7 +61,7 @@ body {
 button {
     display: inline-block;
     border: none;
-    padding: 10px 16px;
+    padding: 10px 24px;
     margin-right: 10px;
     text-decoration: none;
     background: transparent;
@@ -96,6 +98,14 @@ button {
     }
 }
 
+.primary-btn:focus {
+    margin-left: 24px;
+}
+
+.primary-btn:hover {
+    margin-left: 24px;
+}
+
 .btn {
     margin-top: 80px;
 }
@@ -104,7 +114,7 @@ h1 {
     font-size: 24px;
     font-weight: 300;
     color: $primary;
-    padding-left: 16px;
+    padding-left: 24px;
 }
 
 .hey {
@@ -112,18 +122,38 @@ h1 {
     font-weight: 300;
     letter-spacing: -5px;
     color: $primary;
-    padding-left: 16px;
+    padding-left: 24px;
 }
 
 .me {
     font-size: 48px;
     font-weight: 300;
     color: $primary;
-    padding-left: 16px;
+    padding-left: 24px;
     margin-bottom: 20px;
 }
 
 .me span {
     font-weight: 500;
     color: $accent;
+}
+
+.txt-type {
+    color: $accent;
+}
+
+.social {
+    position: absolute;
+    bottom: 40px;
+    padding-left: 18px;
+}
+
+.social-media {
+    fill: $dark;
+    transition: all 0.2s ease;
+    margin-right: 10px;
+
+    &:hover {
+        fill: $accent;
+    }
 }

@@ -7,7 +7,7 @@ var animation = anime({
     delay: function (el, i) { return i * 10 },
     direction: 'alternate',
     loop: true,
-    autoplay: false
+    autoplay: true
 });
 
 document.querySelector('.play').onclick = animation.play;
