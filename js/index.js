@@ -31,9 +31,6 @@ var seekProgressEl = document.querySelector('.progress');
 var tl = anime.timeline({
         easing: 'easeInOutSine',
         duration: 1500,
-        delay: function (el, i) {
-            return i * 10
-        },
         direction: 'alternate',
         loop: true,
         autoplay: true
@@ -47,6 +44,7 @@ tl
 .add({
     targets: '.shape',
     scale: [0, 1],
+    endDelay: 300,
 }, '-=100');
 
 document.querySelector('.play').onclick = tl.play;
