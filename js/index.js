@@ -32,6 +32,9 @@ var tl = anime.timeline({
         easing: 'easeInOutSine',
         duration: 1500,
         direction: 'alternate',
+        delay: function (el, i, l) {
+            return i * 1;
+        },
         loop: true,
         autoplay: true
 });
