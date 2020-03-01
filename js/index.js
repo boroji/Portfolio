@@ -1,3 +1,4 @@
+var seekProgressEl = document.querySelector('.progress');
 
 var animation = anime({
     targets: '.line-drawing',
@@ -14,6 +15,11 @@ document.querySelector('.play').onclick = animation.play;
 document.querySelector('.pause').onclick = animation.pause;
 document.querySelector('.restart').onclick = animation.restart;
 
+seekProgressEl.oninput = function () {
+    animation.seek(animation.duration * (seekProgressEl.value / 100));
+};
+
 animation.play();
 animation.pause();
 animation.restart();
+animation.seek(timeStamp);
