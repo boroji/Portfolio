@@ -44,7 +44,6 @@ tl
 .add({
     targets: '.shape',
     scale: [0, 1],
-    endDelay: 300,
 }, '-=100');
 
 document.querySelector('.play').onclick = tl.play;
