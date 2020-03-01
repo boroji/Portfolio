@@ -21,6 +21,10 @@ body {
     background-color: $light;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 *:before,
 *:after {
     box-sizing: border-box;
