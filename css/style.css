@@ -134,11 +134,11 @@ h1 {
 }
 
 .hey {
-  font-size: 92px;
-  font-weight: 300;
-  letter-spacing: -5px;
+  font-size: 72px;
+  font-weight: 700;
   color: #49596F;
   padding-left: 24px;
+  margin-top: 80px;
 }
 
 .me {
@@ -160,18 +160,36 @@ h1 {
 
 .social {
   position: absolute;
-  bottom: 40px;
+  bottom: 20px;
   padding-left: 18px;
 }
 
 .social-media {
-  fill: #354050;
+  fill: #49596F;
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
   margin-right: 10px;
 }
 
 .social-media:hover {
+  fill: #C6575F;
+}
+
+.naqsh {
+  padding-left: 27px;
+  position: absolute;
+  top: 20px;
+}
+
+.logo {
+  -webkit-transform: scale(0.7);
+          transform: scale(0.7);
+  fill: #49596F;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.logo:hover {
   fill: #C6575F;
 }
 

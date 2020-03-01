@@ -122,11 +122,11 @@ h1 {
 }
 
 .hey {
-    font-size: 92px;
-    font-weight: 300;
-    letter-spacing: -5px;
+    font-size: 72px;
+    font-weight: 700;
     color: $primary;
     padding-left: 24px;
+    margin-top: 80px;
 }
 
 .me {
@@ -148,14 +148,30 @@ h1 {
 
 .social {
     position: absolute;
-    bottom: 40px;
+    bottom: 20px;
     padding-left: 18px;
 }
 
 .social-media {
-    fill: $dark;
+    fill: $primary;
     transition: all 0.2s ease;
     margin-right: 10px;
+
+    &:hover {
+        fill: $accent;
+    }
+}
+
+.naqsh {
+    padding-left: 27px;
+    position: absolute;
+    top: 20px;
+}
+
+.logo {
+    transform: scale(0.7);
+    fill: $primary;
+    transition: all 0.2s ease;
 
     &:hover {
         fill: $accent;
