@@ -144,7 +144,6 @@ h1 {
     font-weight: 700;
     color: $primary;
     padding-left: 24px;
-    margin-top: 80px;
 }
 
 .me {
@@ -317,4 +316,72 @@ input[type=range]:focus::-ms-fill-upper {
     transform-box: fill-box;
     transform-origin: center;
     transform: scale(0);
+}
+
+@media (max-width: 450px) {
+    .wrapper {
+        .controls {
+            margin-left: 10px;
+
+            .social {
+                position: absolute;
+                top: 80px;
+                right: 20px;
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+}
+
+@media (max-width: 850px) {
+    .wrapper {
+        position: static;
+
+        .controls {
+            width: 100%;
+
+            .social {
+                position: absolute;
+                top: 25px;
+                right: 30px;
+                padding-left: 0;
+
+                .social-media {
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+
+    
+
+    .container {
+        justify-content: center;
+
+        .side {
+            width: 30%;
+        }
+
+        .row {
+            width: 60%;
+            margin-right: 0;
+        }
+    }
+
+    
+}
+
+@media (max-width: 1150px) {
+    .me {
+        font-size: 18px;
+    }
+
+    .hey {
+        font-size: 24px;
+    }
+
+    h1 {
+        font-size: 14px;
+    }
 }
