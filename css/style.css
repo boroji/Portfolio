@@ -51,8 +51,12 @@ body {
 }
 
 .container .row {
-  width: 40%;
+  width: 30%;
   margin-right: 80px;
+}
+
+.container .side {
+  width: 15%;
 }
 
 .wrapper {
@@ -319,21 +323,4 @@ input[type=range]:focus::-ms-fill-upper {
   -webkit-transform: scale(0);
           transform: scale(0);
 }
-
-/* .shape:nth-child(even) {
-    animation: scale 2s ease 1s infinite alternate;
-}
-.shape:nth-child(odd) {
-    animation: scale 0.5s ease 1s infinite alternate;
-}
-
-@keyframes scale {
-    from {
-        transform: scale(0);
-    }
-
-    to {
-        transform: scale(1);
-    }
-} */
 /*# sourceMappingURL=style.css.map */

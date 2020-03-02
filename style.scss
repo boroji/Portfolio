@@ -50,8 +50,12 @@ body {
     background: transparent;
 
     .row {
-        width: 40%;
+        width: 30%;
         margin-right: 80px;
+    }
+
+    .side {
+        width: 15%;
     }
 }
 
@@ -314,20 +318,3 @@ input[type=range]:focus::-ms-fill-upper {
     transform-origin: center;
     transform: scale(0);
 }
-
-/* .shape:nth-child(even) {
-    animation: scale 2s ease 1s infinite alternate;
-}
-.shape:nth-child(odd) {
-    animation: scale 0.5s ease 1s infinite alternate;
-}
-
-@keyframes scale {
-    from {
-        transform: scale(0);
-    }
-
-    to {
-        transform: scale(1);
-    }
-} */
