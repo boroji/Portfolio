@@ -561,6 +561,7 @@ input[type=range]:focus::-ms-fill-upper {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    height: 60vh;
   }
   .container .side {
     width: 30%;
